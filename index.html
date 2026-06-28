@@ -53,16 +53,12 @@
         </main>  
     </body>
     <script>
-        const botao  = document.querySelector
-        ("button");
-        botao.addEventListener("click", 
-        botaoClicado);
-
-        function botaoClicado(){
-            console.log("fui Clicado");
-            let texto = botao.querySelector
-            ("span");
-            texto.textContent++;
+        const botao  = document.querySelectorAll("button");
+            let texto = botao.querySelector("span");
+            
+            function botaoClicado() {
+            let texto = botao.querySelector("span");
+            texto.textContext++;
 
         }
     </script>
