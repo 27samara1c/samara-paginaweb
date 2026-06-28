@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blog</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
     <style>
-        header{
-         background-color: #db31b6;
-        color:#FEFEFF;
-        text-align: center;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 16px;
+        header {
+            background-color: #db31b6;
+            color: #FEFEFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
 
         }
+
         main {
             background-color: #FEFEFF;
             color: #db31b6;
             max-width: 800px;
             margin: 0 auto;
             padding: 16px;
-        display: flex;
+            display: flex;
         }
-        img{
+
+        img {
             width: 80px;
-            height: 80px;       
-         }
+            height: 80px;
+        }
+
         .artigo-autor {
             font-weight: bold;
-         } 
+        }
+    </style>
+</head>
 
-       </style>
-    </head>
-    <body>
-      <header>
-    <h1>Meu blog tech</h1>
-            <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
-      </header>
-     <main>
-        <img src="imagem-blog.png" 
-        alt="um icone quadrado e rosa de design plano em um fundo rosa texturizado. 
+<body>
+    <header>
+        <h1>Meu blog tech</h1>
+        <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+    </header>
+    <main>
+        <img src="imagem-blog.png"
+            alt="um icone quadrado e rosa de design plano em um fundo rosa texturizado. 
         No centro, um livro aberto rosa claro com um grande mecanismo de engrenagem rosa neon e brilhante flutuando acima dele.">
         <div>
-         <h2>Meu primeiro post</h2>
-         <p class="artigo-autor">por: Samara Muniz</p>
-         <p>Boas-vindas ao meu novo blog! aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
-         <button>❤️  <span>0</span></button>
-         <button>👎  <span>0</span></button>
-         </div>
-        
+            <h2>Meu primeiro post</h2>
+            <p class="artigo-autor">por: Samara Muniz</p>
+            <p>Boas-vindas ao meu novo blog! aqui vou compartilhar dicas de programação e curiosidades da área de
+                tecnologia.</p>
+            <button>❤️ <span>0</span></button>
+            <button>👎 <span>0</span></button>
+        </div>
+        <img src="imagem-blog.png"
+            alt="um icone quadrado e rosa de design plano em um fundo rosa texturizado. 
+        No centro, um livro aberto rosa claro com um grande mecanismo de engrenagem rosa neon e brilhante flutuando acima dele.">
 
-        </main>  
-    </body>
-    <script>
-        const botoes = document.querySelectorAll("button");
-    
-        botoes.forEach( function(botao){
+    </main>
+</body>
+<script>
+    const botoes = document.querySelectorAll("button");
+
+    botoes.forEach(function (botao) {
         botao.addEventListener("click", botaoClicado);
-             function botaoClicado() {
-                console.log("fui clicado");
-        let texto = botao.querySelector("span");
-         texto.textContent++;
+        function botaoClicado() {
+            console.log("fui clicado");
+            let texto = botao.querySelector("span");
+            texto.textContent++;
         }
     })
-    </script>
- </html>
+</script>
+
+</html>
