@@ -19,6 +19,7 @@ main {
 
 article {
     display: flex;
+    border: 1px solid #DDABC6;
 }
 
 img {
