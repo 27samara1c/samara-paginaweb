@@ -11,13 +11,16 @@
     --cor-primaria: #ca4b8f;
     --cor-segundaria:#e589ba;
     --cor-fundo: #000000;
-    --cor-texto:#141313;
+    --cor-texto:#fffbfb;
     --cor-contraste:#f6edf2;
     --cor-botao:#f8eef3;   
 }
 
 .tema-escuro p {
     color: var(--cor-texto);
+}
+.tema-escuro header p {
+    color: var(--cor-contraste)
 }
 
 body{
