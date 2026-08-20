@@ -17,7 +17,7 @@ botoes.forEach(function(botao){
 
 })
 
-const btnTemaEscuro = document.querySelector(".bnt-tema-escuro");
+const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
 
 btnTemaEscuro.addEventListener("click", mudaTema);
 
