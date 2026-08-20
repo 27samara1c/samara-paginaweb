@@ -17,3 +17,5 @@ botoes.forEach(function (botao) {
 
     }
 })
+
+const btnTemaEscuro = document.querySelector(".bnt-tema-escuro");
