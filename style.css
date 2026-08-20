@@ -9,6 +9,9 @@
     --fonte-texto:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+*{
+    transition: background-color 0.3s ease;
+}
 .tema-escuro{
     --cor-primaria: #ca4b8f;
     --cor-segundaria:#e589ba;
