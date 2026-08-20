@@ -9,7 +9,7 @@ botoes.forEach(function(botao){
         if(curtiu === false){
             texto.textContent++;
             curtiu = true;
-        } else{
+            } else{
             texto.textContent--;
             curtiu = false;
         }  
@@ -25,7 +25,7 @@ function mudaTema() {
     const corpoPagina = document.body;
     if (corpoPagina.classList.contains("tema-escuro")) {
         corpoPagina.classList.remove("tema-escuro");
-    } else {
+      } else {
         corpoPagina.classList.add("tema-escuro");
     }
 }
