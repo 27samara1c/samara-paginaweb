@@ -10,7 +10,7 @@
 }
 
 *{
-    transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
 }
 .tema-escuro{
     --cor-primaria: #ca4b8f;
